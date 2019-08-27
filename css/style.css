@@ -62,16 +62,6 @@ div.aboutme {
 	margin-top: 20px;
 	padding-right: 20px;
 }
-#logo a { 
-	color: #0000A0; 
-	text-decoration: none; 
-	float: left; 
-	font-size: 30px; 
-	margin-top: 20px;
-	margin-left: 10px;  
-	font-family: "Poiret One"; 
-	font-weight: bold; 
-}
 #nav ul{
 	list-style: none;
 	display: block;
