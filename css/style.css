@@ -5,18 +5,96 @@ body{
 	max-width: 1280px;
 	min-width: 1280px;
 }
+#container {
+max-width: 1280px;
+}
+#speedChartDiv {
+    z-index: 500; 
+    position: absolute;
+    top: -105px;
+    left: 50%;
+    margin-left: -300px;
+    opacity: .7;
+    pointer-events: none;
+}
+#whiteBoxLeft {
+    z-index: 501; 
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    left: 50%;
+    margin-left: -169px;
+}
+#whiteBoxRight {
+    z-index: 501; 
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    left: 50%;
+    margin-left: 69px;
+}
+#pieChart {
+    width: 50%;
+    position:absolute;
+    top: 0px;
+    right: 0px;
+}
+#foodChart {
+    width: 46%;
+}
+.score {
+	background: url('../img/header-bg.png');
+	font-family: "Pompiere";
+	font-size: 32px;
+	text-align: center;
+	width: 35%;
+	margin: 0 auto;
+	margin-top: 25%;
+	border-radius: 2%;
+	padding: 30px;
+}
+
 a:link, a:visited { 
-    color: #0000A0;
+    color: #FFFFFF;
 	font-weight:bold;
     text-decoration: underline;
     cursor: auto;
+}
+
+#left {
+	/*background:url('../img/portland.jpg') 0% 0 no-repeat ;*/
+	float: left;
+	width: 49.75%;
+	height: 100%;
+	margin: 0;
+	display: inline-block;
+	border-radius: 0 0 2% 0;
+}
+#right {
+	/*background:url('../img/chtphoto.png') 100% 0 no-repeat ;*/
+	float: right;
+	width: 49.75%;
+	height: 100%;
+	margin: 0;
+	border-radius: 0 0 0 2%;
+}
+.about { 
+	font-family: "Open Sans";
+	margin-left: 15%;
+	margin-right: 20px;
+	line-height: 1.75em;
+	color: #fff;
 }
 .content img  {
 	width: 150px;
 	margin-left: 20px;
 	float: left;
 }
+/*= HEADER & NAVIGATION
 --------------------------------------------------------*/
+
 #header { 
 	width: 100%; 
 	background: url('../img/header-bg.png'); 
@@ -25,6 +103,14 @@ a:link, a:visited {
     z-index: 9999;
     max-width: 1280px;
 }
+
+#nav { 
+	width: 400px; 
+	float: right; 
+	margin-top: 20px;
+	padding-right: 20px;
+}
+
 #logo a { 
 	color: #fff; 
 	text-decoration: none; 
@@ -35,12 +121,7 @@ a:link, a:visited {
 	font-family: "Poiret One"; 
 	font-weight: bold; 
 }
-#nav { 
-	width: 400px; 
-	float: right; 
-	margin-top: 20px;
-	padding-right: 20px;
-}
+
 #nav ul{
 	list-style: none;
 	display: block;
@@ -48,24 +129,64 @@ a:link, a:visited {
 	list-style: none;
 	width: 100%;
 }
+
 #nav li{
 	margin-top: 9px;	
 	float: left;
 	padding-left: 21px;
 }
+
 #nav li a { 
-	color: #0000A0; 
+	color: #fff; 
 	opacity:0.6; 
 	font-size: 18px; 
 	text-decoration: none; 
 	font-family: "Poiret One"; 
 }
+
 #nav li a.active { 
-	color: #0000A0; 
+	color: #fff; 
 	opacity:1; 
 	border-bottom: 2px solid #fff; 
 }
+
 #nav li a:hover { 
-	color: #0000A0; 
+	color: #fff; 
 	opacity:1;  
+}
+
+/*= SLIDES STYLING
+--------------------------------------------------------*/
+
+#slide1, #slide2 { 
+	width: 100%; 
+}
+
+#slide1{
+    background: url('../img/Chattanooga-Aerial.jpg') no-repeat center;
+    margin-bottom: -100px;
+	color: #fff;
+	height: 400px;
+	margin: 0;
+}
+
+#slide2{
+	background-color: #fff;   
+	padding-bottom: 50px;
+    width: 100%;
+    position:relative;
+}
+
+#slide3{
+	background: url(../img/bricksred.jpg) 50% 0 no-repeat fixed;
+	height: 600px;
+	padding: 100px 0 0 0;	
+	background-size: cover;
+}
+
+#slide4{
+	background: url(../img/gravel.jpg) 50% 0 no-repeat fixed;
+	height: 600px;
+	padding: 100px 0 0 0;	
+	background-size: cover;
 }
