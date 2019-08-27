@@ -17,10 +17,18 @@ a:link, a:visited {
 	float: left;
 }
 div.logo {
-    color: #FFFFFF;
+	color: #FFFFFF;
 	font-weight:bold;
-    text-decoration: underline;
-    cursor: auto;
+	text-decoration: underline;
+	cursor: auto;
+	font-family: "Pompiere";
+	font-size: 32px;
+	text-align: center;
+	width: 35%;
+	margin: 0 auto;
+	margin-top: 25%;
+	border-radius: 2%;
+	padding: 30px;
 }
 div.inquiryinfo {
 	word-wrap: break-word;
