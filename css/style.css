@@ -16,6 +16,12 @@ a:link, a:visited {
 	margin-left: 20px;
 	float: left;
 }
+div.logo {
+    color: #FFFFFF;
+	font-weight:bold;
+    text-decoration: underline;
+    cursor: auto;
+}
 div.inquiryinfo {
 	word-wrap: break-word;
 }
