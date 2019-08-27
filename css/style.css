@@ -32,3 +32,47 @@ div.aboutme {
     z-index: 9999;
     max-width: 1280px;
 }
+#nav { 
+	width: 400px; 
+	float: right; 
+	margin-top: 20px;
+	padding-right: 20px;
+}
+#logo a { 
+	color: #0000A0; 
+	text-decoration: none; 
+	float: left; 
+	font-size: 30px; 
+	margin-top: 20px;
+	margin-left: 10px;  
+	font-family: "Poiret One"; 
+	font-weight: bold; 
+}
+#nav ul{
+	list-style: none;
+	display: block;
+	margin: 0 auto;
+	list-style: none;
+	width: 100%;
+}
+#nav li{
+	margin-top: 9px;	
+	float: left;
+	padding-left: 21px;
+}
+#nav li a { 
+	color: #0000A0; 
+	opacity:0.6; 
+	font-size: 18px; 
+	text-decoration: none; 
+	font-family: "Poiret One"; 
+}
+#nav li a.active { 
+	color: #0000A0; 
+	opacity:1; 
+	border-bottom: 2px solid #fff; 
+}
+#nav li a:hover { 
+	color: #0000A0; 
+	opacity:1;  
+}
