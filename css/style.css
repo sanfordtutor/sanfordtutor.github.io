@@ -16,20 +16,6 @@ a:link, a:visited {
 	margin-left: 20px;
 	float: left;
 }
-div.inquiryinfo {
-	word-wrap: break-word;
-}
-div.aboutme {
-	word-wrap: break-word;
-}
-.table1 {
-	style="width:60%";
-	font-family:Arial,Verdana,sans-serif;
-/*
-  font-size:1em; <font color='red'>/* Never set font sizes in pixels! */</font>
-  color:#00f;
-*/
-}
 --------------------------------------------------------*/
 #header { 
 	width: 100%; 
