@@ -16,20 +16,6 @@ a:link, a:visited {
 	margin-left: 20px;
 	float: left;
 }
-div.logo {
-	color: #FFFFFF;
-	font-weight:bold;
-	text-decoration: underline;
-	cursor: auto;
-	font-family: "Pompiere";
-	font-size: 32px;
-	text-align: center;
-	width: 35%;
-	margin: 0 auto;
-	margin-top: 25%;
-	border-radius: 2%;
-	padding: 30px;
-}
 div.inquiryinfo {
 	word-wrap: break-word;
 }
@@ -45,6 +31,16 @@ div.aboutme {
 	position: fixed;
     z-index: 9999;
     max-width: 1280px;
+}
+#logo a { 
+	color: #fff; 
+	text-decoration: none; 
+	float: left; 
+	font-size: 30px; 
+	margin-top: 20px;
+	margin-left: 10px;  
+	font-family: "Poiret One"; 
+	font-weight: bold; 
 }
 #nav { 
 	width: 400px; 
