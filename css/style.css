@@ -5,13 +5,6 @@ body{
 	max-width: 1280px;
 	min-width: 1280px;
 }
-div {
-	width: 90%;
-	display: -webkit-flex; /* Safari */
-	-webkit-flex-wrap: wrap; /* Safari 6.1+ */
-	display: flex;   
-	flex-wrap: wrap;
-}
 a:link, a:visited { 
     color: #0000A0;
 	font-weight:bold;
