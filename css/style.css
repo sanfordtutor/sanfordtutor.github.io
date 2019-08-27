@@ -112,7 +112,7 @@ a:link, a:visited {
 }
 
 #logo a { 
-	color: #fff; 
+	color: #ffffff; 
 	text-decoration: none; 
 	float: left; 
 	font-size: 30px; 
@@ -137,7 +137,7 @@ a:link, a:visited {
 }
 
 #nav li a { 
-	color: #fff; 
+	color: #000000; 
 	opacity:0.6; 
 	font-size: 18px; 
 	text-decoration: none; 
@@ -145,48 +145,12 @@ a:link, a:visited {
 }
 
 #nav li a.active { 
-	color: #fff; 
+	color: #000000; 
 	opacity:1; 
 	border-bottom: 2px solid #fff; 
 }
 
 #nav li a:hover { 
-	color: #fff; 
+	color: #000000; 
 	opacity:1;  
-}
-
-/*= SLIDES STYLING
---------------------------------------------------------*/
-
-#slide1, #slide2 { 
-	width: 100%; 
-}
-
-#slide1{
-    background: url('../img/Chattanooga-Aerial.jpg') no-repeat center;
-    margin-bottom: -100px;
-	color: #fff;
-	height: 400px;
-	margin: 0;
-}
-
-#slide2{
-	background-color: #fff;   
-	padding-bottom: 50px;
-    width: 100%;
-    position:relative;
-}
-
-#slide3{
-	background: url(../img/bricksred.jpg) 50% 0 no-repeat fixed;
-	height: 600px;
-	padding: 100px 0 0 0;	
-	background-size: cover;
-}
-
-#slide4{
-	background: url(../img/gravel.jpg) 50% 0 no-repeat fixed;
-	height: 600px;
-	padding: 100px 0 0 0;	
-	background-size: cover;
 }
