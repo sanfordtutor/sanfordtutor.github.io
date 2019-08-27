@@ -16,6 +16,12 @@ a:link, a:visited {
 	margin-left: 20px;
 	float: left;
 }
+div.inquiryinfo {
+	word-wrap: break-word;
+}
+div.aboutme {
+	word-wrap: break-word;
+}
 /*= HEADER & NAVIGATION
 --------------------------------------------------------*/
 #header { 
